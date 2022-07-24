@@ -3,8 +3,6 @@ import '../css/common.css';
 import { fetchCountries } from './fetchCountries';
 import debounce from 'lodash.debounce';
 import Notiflix from 'notiflix';
-// import createCountryCard from '../templates/country-card.hbs';
-// import createCountryCards from '../templates/contry-cards.hbs';
 
 const DEBOUNCE_DELAY = 300;
 
